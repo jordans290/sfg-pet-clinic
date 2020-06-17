@@ -4,6 +4,7 @@ public class Person {
     private String firstName;
     private String lastName;
 
+    //Press command "n" to open a shortcut to create getters and setters
     public String getFirstName() {
         return firstName;
     }
