@@ -15,7 +15,7 @@ public class VetController {
     }
 
     //    vets/index is where this file is located (templates/vets/index
-    @RequestMapping({"/vets", "/vets/index", "/vets/index.html"})
+    @RequestMapping({"/vets", "/vets/index", "/vets/index.html", "/vets.html"})
     public String listVets(Model model) {
 
         model.addAttribute("vets", vetService.findAll());

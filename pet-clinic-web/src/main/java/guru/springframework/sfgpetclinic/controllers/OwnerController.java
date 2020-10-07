@@ -22,4 +22,9 @@ public class OwnerController {
 //        this is the directory where the Thyme leaf file is
         return "owners/index";
     }
+
+    @RequestMapping("/find")
+    public String findOwners() {
+        return "notimplemented";
+    }
 }
